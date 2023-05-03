@@ -70,21 +70,25 @@ img[alt="top-left"]{
     top: 0;
     left: 0;
     position: absolute;
+    border-radius: 10px;
 }
 img[alt="top-right"]{
     top: 0;
     right: 0;
     position: absolute;
+    border-radius: 10px;
 }
 img[alt="bottom-right"]{
     bottom: 0;
     right: 0;
     position: absolute;
+    border-radius: 10px;
 }
 img[alt="bottom-left"]{
     bottom: 0;
     left: 0;
     position: absolute;
+    border-radius: 10px;
 }
 img[alt="Vector"]{
     position: absolute;
@@ -96,6 +100,9 @@ img[alt="Vector"]{
 }
 .w-100{
     width: 100%;
+}
+.bg-black{
+    background-color: black;
 }
 @media (max-width: 768px) {
     .card{
